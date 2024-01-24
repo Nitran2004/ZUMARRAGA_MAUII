@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MartinZumarragaDogApi.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label   Text="Pagina de busqueda de imagenes de perros " HorizontalOptions="Center" FontSize="Title" TextColor="DarkTurquoise"/>
+
+            <Label x:Name="BreedsLabel" Text="Cargando espere....." FontSize="18" HorizontalOptions="Center" />
+
+            <StackLayout
+                x:Name="Layout"
+                HorizontalOptions="Center"
+                VerticalOptions="Center">
+            </StackLayout>
+
+            <Button Text="Ramdom" Clicked="Button_Clicked" HorizontalOptions="Center" />
+
+            <Label   Text="Ingrese el nombre del perro a buscar" HorizontalOptions="Center" FontSize="Title" TextColor="DarkTurquoise"/>
+
+            <Entry x:Name="BreedNameEntry" Placeholder="Nombre del perro" HorizontalOptions="Center"/>
+            <Button Text="Buscar Perro" Clicked="SearchButton_Clicked" HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
