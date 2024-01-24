@@ -63,4 +63,20 @@
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="ViewModel\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="MZMainPage.xaml.cs">
+	    <DependentUpon>MZMainPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="MZAppShell.xaml.cs">
+	    <DependentUpon>MZAppShell.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="MZApp.xaml.cs">
+	    <DependentUpon>MZApp.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
 </Project>

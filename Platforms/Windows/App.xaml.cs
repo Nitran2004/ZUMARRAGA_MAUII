@@ -19,7 +19,7 @@ namespace MartinZumarragaDogApi.WinUI
 			this.InitializeComponent();
 		}
 
-		protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+		protected override MauiApp CreateMauiApp() => MZMauiProgram.CreateMauiApp();
 	}
 
 }

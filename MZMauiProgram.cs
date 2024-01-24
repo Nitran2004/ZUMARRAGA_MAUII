@@ -2,7 +2,7 @@
 
 namespace MartinZumarragaDogApi
 {
-	public static class MauiProgram
+	public static class MZMauiProgram
 	{
 		public static MauiApp CreateMauiApp()
 		{
